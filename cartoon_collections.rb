@@ -21,9 +21,13 @@ end
   return longerThanFour
 end
 
-def find_the_cheese(food)
+def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  food.each do |cheese|
-    return cheese if 
+array.include("cheese_types")
+  if true 
+    return cheese 
+  else
+    return
+    nil 
 end
