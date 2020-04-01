@@ -31,3 +31,10 @@ def find_the_cheese(array)
 end
 return nil
 end
+cheese_types = ["cheddar", "gouda", "camembert"]
+array.each do |cheese|
+  return cheese if cheese.include("cheddar"|| "gouda"|| "camembert")
+end
+return nil
+end
+
