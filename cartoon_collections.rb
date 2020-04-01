@@ -31,5 +31,6 @@ array.include(item)
   else
     return
     nil 
+  end
 end
 end
